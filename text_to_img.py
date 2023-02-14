@@ -98,7 +98,7 @@ class TextWrapper(textwrap.TextWrapper):
                 cur_len -= self._strlen(cur_line[-1])
                 del cur_line[-1]
 
-            if cur_line:
+            if cur__line:
                 if (self.max_lines is None or
                     self._strlen(lines) + 1 < self.max_lines or
                     (not chunks or
